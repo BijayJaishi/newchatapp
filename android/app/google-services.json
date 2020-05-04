@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "510197422549",
+    "firebase_url": "https://newchatapp-8642d.firebaseio.com",
+    "project_id": "newchatapp-8642d",
+    "storage_bucket": "newchatapp-8642d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510197422549:android:800b6c898387a15af6455c",
+        "android_client_info": {
+          "package_name": "com.kandktech.newchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510197422549-85ivprg362ia8k8gld2augj8b7flimtb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kandktech.newchatapp",
+            "certificate_hash": "ee3535cd3844299178ff29accb096f8b391c3d43"
+          }
+        },
+        {
+          "client_id": "510197422549-n62kua5ljosua48tk2rucb2l3s8a4ge9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv9vzi_DVSch9Of22u165qVysK7QEKrsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510197422549-n62kua5ljosua48tk2rucb2l3s8a4ge9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

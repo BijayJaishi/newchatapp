@@ -96,7 +96,9 @@ class LoginScreenState extends State<LoginScreen> {
           'photoUrl': firebaseUser.photoUrl,
           'id': firebaseUser.uid,
           'createdAt': DateTime.now().millisecondsSinceEpoch.toString(),
-          'chattingWith': null
+          'chattingWith': null,
+          'seenBy':null,
+          'done':'yes'
         });
 
         // Write data to local

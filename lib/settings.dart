@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
+import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:newchatapp/const.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -297,6 +298,18 @@ class SettingsScreenState extends State<SettingsScreen> {
                 ),
                 margin: EdgeInsets.only(top: 50.0, bottom: 50.0),
               ),
+
+              //flare use trial
+              Container(
+                height: 200,
+                width: 500,
+                child: FlareActor(
+                  "images/loader.flr",
+                  animation: "circular",
+                  fit: BoxFit.contain,
+                ),
+              )
+
             ],
           ),
           padding: EdgeInsets.only(left: 15.0, right: 15.0),
